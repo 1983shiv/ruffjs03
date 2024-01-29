@@ -4,6 +4,6 @@ export const fetchAnime = async (page: number) => {
     `https://shikimori.one/api/animes?page=${page}&limit=8&order=popularity`
   );
   const data = await res.json();
-  console.log("data", data);
+  //   console.log("data", data);
   return data;
 };
